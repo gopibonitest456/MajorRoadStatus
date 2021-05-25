@@ -22,8 +22,8 @@ Install Powershell.
 
 # AppId and AppKey
 There are two json configs used in the solution.One in the main project and another in test project.
-RoadStatus - AppSettings.json
-RoadStatusTest - AppSettings_Test.json
+MajorRoadStatus - AppSettings.json
+MajorRoadStatusTest - AppSettings_Test.json
 
 Please update the values in solution and published folder.
 
@@ -34,8 +34,9 @@ git available
 
 # How to build the code
 1. Clone the repository using GitBash/Powershell from Github
-2. Open the .sln file using Visual Studio 2019
-3. Press on Ctrl+Shift+B to build the code.
+2. https://github.com/gopibonitest456/MajorRoadStatus.git
+3. Open the .sln file using Visual Studio 2019
+4. Press on Ctrl+Shift+B to build the code.
 
 o	How to run the output
 1. Run MajorRoadStatus application in visual studio
