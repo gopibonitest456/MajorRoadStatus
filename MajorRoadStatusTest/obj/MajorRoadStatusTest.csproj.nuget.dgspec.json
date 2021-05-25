@@ -1,0 +1,228 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusTest\\MajorRoadStatusTest.csproj": {}
+  },
+  "projects": {
+    "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj",
+        "projectName": "MajorRoadStatusSystem",
+        "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj",
+        "packagesPath": "C:\\Users\\MYPC\\.nuget\\packages\\",
+        "outputPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MYPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusTest\\MajorRoadStatusTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusTest\\MajorRoadStatusTest.csproj",
+        "projectName": "MajorRoadStatusTest",
+        "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusTest\\MajorRoadStatusTest.csproj",
+        "packagesPath": "C:\\Users\\MYPC\\.nuget\\packages\\",
+        "outputPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MYPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj": {
+                "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj"
+              },
+              "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\MajorRoadStatus.csproj": {
+                "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\MajorRoadStatus.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\MajorRoadStatus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\MajorRoadStatus.csproj",
+        "projectName": "MajorRoadStatus",
+        "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\MajorRoadStatus.csproj",
+        "packagesPath": "C:\\Users\\MYPC\\.nuget\\packages\\",
+        "outputPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatus\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MYPC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://www.nuget.org/api/v2": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj": {
+                "projectPath": "G:\\Gopi\\Doc\\JTU\\TFL\\TFL\\MajorRoadStatus\\MajorRoadStatusSystem\\MajorRoadStatusSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "McMaster.Extensions.CommandLineUtils": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
